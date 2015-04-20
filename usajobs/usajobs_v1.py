@@ -3,7 +3,7 @@ import urllib2
 import re
 
 
-OUTPUT_DIRECTORY = '/Users/dev/pthw/usajobs/html_dl'
+OUTPUT_DIRECTORY = '/Users/dev/Code/git/usajobs/html_dl'
 pattern = re.compile('Park Ranger \(Protection\)')
 
 for num in range(320000000, 330000000):
